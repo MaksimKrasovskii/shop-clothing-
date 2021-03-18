@@ -236,6 +236,14 @@ text-transform: uppercase;
   padding: 16px;
 
 }
+
+.text__product:hover,
+.text__product:focus {
+  opacity: 0.5;
+  cursor: pointer;
+  outline: none;
+}
+
 .text__product--price {
   color:#F17D7F;
   padding: 16px;
@@ -271,6 +279,16 @@ text-transform: uppercase;
 .products__asortiment--img {
   position: inherit;
   margin-top: -50%;
+}
+
+
+
+.products__asortiment--img:hover {
+  outline: none;
+  cursor: pointer;
+  opacity: 0.5;  
+  background-image: url(../img/baskethow.png);
+  
 }
 
 .products__buttons {
@@ -332,7 +350,7 @@ position: absolute;
 }
 
 .advantages__text {
-  font: Lato;
+  font: Lato, Arial, sans-serif;
   color: #FBFBFB;
   text-align: center;
   width: 360px;
@@ -378,7 +396,7 @@ position: absolute;
   left: 140px;
   text-align: center;
   font-size: 20px;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-weight: 400;
   
 }
@@ -392,7 +410,7 @@ position: absolute;
 .footers__email--h1 {
   text-align: center;
   font-size: 24px;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -452,6 +470,7 @@ position: absolute;
   transition-delay: 0.2s;
   }
   .footers__copy {
+   
       position: absolute;
       top: 3840px;
       width: 1600px;
@@ -460,7 +479,7 @@ position: absolute;
   }
   .footers__copy--text {
       font-size: 16px;
-      font-family: Lato;    
+      font-family: Lato, Arial, sans-serif;    
       color:white;
       font-weight: 400;
       text-align: left;
@@ -470,7 +489,7 @@ position: absolute;
 .footers__copy--social {
  position: absolute;
  top: 3860px;
- right: 150px;
+ right: 450px;
 
 }
 
@@ -509,7 +528,7 @@ position: absolute;
 left: 750px;
 top: 1060px;
 text-align: center;
-font-family: Lato;
+font-family: Lato, Arial, sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -533,6 +552,7 @@ letter-spacing: 0em;
 .footers__copy--socialreg {
   position: absolute;
   top: 1360px;
+  right: 100px;
 }
 .text-input__reg--button {
   position: inherit;
@@ -548,11 +568,11 @@ letter-spacing: 0em;
 }
 
 .registration {
-  width: 1600px;
+  width: 1470px;
   height: 148px;
   background-color: #F8F3F4;
   text-align: left;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -570,7 +590,7 @@ letter-spacing: 0em;
   top: 250px;
 }
 .registration__data {
-  Font: Lato;
+  Font: Lato, Arial, sans-serif;
   font-weight: 300;
 }
 
@@ -632,7 +652,7 @@ letter-spacing: 0em;
   width: 359px;
   height: 32px;
   font-size: 13px;
-  Font: Lato;
+  Font: Lato, Arial, sans-serif;
   font-weight: 300;
   line-height: 15px;
 
@@ -648,7 +668,7 @@ letter-spacing: 0em;
 }
 
 .button__registration__text {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -662,7 +682,7 @@ letter-spacing: 0em;
   position: relative;
   top: -500px;
   right: -750px;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -678,7 +698,7 @@ letter-spacing: 0em;
   text-align: left;
   width: 652px;
   height: 58px;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -701,7 +721,7 @@ letter-spacing: 0em;
 }
 
 .inscriptions {
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -751,15 +771,386 @@ letter-spacing: 0em;
 }
 
 .cart {
-  width: 1600px;
+  width: 1470px;
   height: 148px;
   background-color: #F8F3F4;
   text-align: left;
-  font-family: Lato;
+  font-family: Lato, Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
 }
+/*первый товар*/
+
+.basket {
+  margin: 96px 0 0 230px;
+  display: flex;
+}
+
+.basket__suitmen:hover {
+  border: 1px solid;
+  opacity: 0.5;
+}
+
+.basket__suitmen {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+
+.features:hover {
+  border: 1px solid;
+}
+.container__basket {
+  width: 390px;
+  height: 306px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.parameters__basket {
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.parameters__basket--1 {
+position: absolute;
+  left: 550px;
+  top: 450px;
+}
+.parameters__basket--2 {
+  position: absolute;
+    left: 550px;
+    top: 485px;
+  }
+  .parameters__basket--3 {
+    position: absolute;
+      left: 550px;
+      top: 515px;
+    }
+    .parameters__basket--4 {
+      position: absolute;
+        left: 550px;
+        top: 550px;
+      }
+      .basket_price {
+        position: absolute;
+          left: 615px;
+          top: 450px;
+          font-family: Lato;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0em;
+          text-align: left;
+          color:  #FF6A6A;
+        }
+
+
+.cart__basket {
+  position: absolute;
+  left: 550px;
+  top: 350px;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.basket__units--scoreboard {
+  width: 43px;
+  height: 24px;
+  position: absolute;
+  left: 670px;
+  top: 550px;
+  text-align: center;
+}
+.close {
+  position: absolute;
+  left: 840px;
+  top: 355px;
+}
+/*2 товар*/
+
+.basket {
+  margin: 96px 0 0 230px;
+  display: flex;
+}
+.basket__redshirt:hover {
+  border: 1px solid;
+  opacity: 0.5;
+  
+}
+.basket__redshirt {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.features2:hover {
+  border: 1px solid;
+}
+.container__basket2 {
+  width: 390px;
+  height: 306px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.parameters__basket2 {
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.parameters__basket--1-2 {
+position: absolute;
+  left: 550px;
+  top: 850px;
+}
+.parameters__basket--2-2 {
+  position: absolute;
+    left: 550px;
+    top: 885px;
+  }
+  .parameters__basket--3-2 {
+    position: absolute;
+      left: 550px;
+      top: 920px;
+    }
+    .parameters__basket--4-2 {
+      position: absolute;
+        left: 550px;
+        top: 950px;
+      }
+      .basket_price2 {
+        position: absolute;
+          left: 615px;
+          top: 850px;
+          font-family: Lato;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 0em;
+          text-align: left;
+          color:  #FF6A6A;
+        }
+
+
+.cart__basket2 {
+  position: absolute;
+  left: 550px;
+  top: 750px;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.basket__units--scoreboard2 {
+  width: 43px;
+  height: 24px;
+  position: absolute;
+  left: 670px;
+  top: 950px;
+  text-align: center;
+}
+.close2 {
+  position: absolute;
+  left: 840px;
+  top: 755px;
+}
+
+/*кнопки*/
+.button__clear {
+  width: 235px;
+  height: 50px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 1100px;
+  left: 230px;
+  
+}
+
+.button__continue {
+  width: 235px;
+  height: 50px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 1100px;
+  right: 580px;
+}
+
+/*форма корзина*/
+.form {
+  display: grid;
+  position: absolute;
+  top: 330px;
+  right: 130px;
+}
+.form__h1 {
+  font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.form__text {
+  width: 360px;
+  height: 45px;
+  font-family: Lato;
+font-size: 13px;
+font-style: normal;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.form__button {
+  width: 100px;
+  height: 34px;
+  margin: 10px 0 0 0;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.check {
+  width: 360px;
+  height: 214px;
+  background-color: #F5F3F3;
+  position: absolute;
+  top: 750px;
+  right: 125px;
+}
+.check:hover {
+  border: 1px solid;
+  opacity: 0.5;
+}
+.check__subtotal {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.check__grandtotal {
+  position: absolute;
+  right: 20px;
+  top: 65px;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.check__proceed {
+  width: 273px;
+  height: 50px;
+  position: absolute;
+  right: 40px;
+  top: 120px;
+  background-color: #F16D7F;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+/*подвал корзина*/
+.footers__fon--bas {
+  position: inherit;
+  margin: 200px 0px 0px 0px;
+}
+
+.footers__image--bas {
+  position: absolute;
+  bottom: -700px;
+  left: 257px;
+  
+}
+
+.footers__text--bas {
+  position: absolute;
+  bottom: -800px;
+  left: 167px;
+  text-align: center;
+}
+.footers__email--texth-bas {
+position: absolute;
+right: 250px;
+top: 1360px;
+text-align: center;
+font-family: Lato, Arial, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+}
+.text-input__bas--email {
+  position: absolute;
+  top: 1460px;
+  right: 300px;
+}
+.input__but--bas {
+  margin: 1460px 0 0 800px;
+}
+
+
+.footers__copy--bas {
+  position: absolute;
+  top: 1640px;
+  width: 1900px;
+  height: 79px;
+  background: #222224;
+}
+
+.footers__copy--socialbas {
+  position: absolute;
+  top: 1660px;
+  right: 100px;
+}
+
 
 /*медиазапросы главная*/
 
@@ -886,6 +1277,7 @@ top: 2950px;
   height: 79px;
   top: 4540px;
   }
+
   .footers__copy--social {
     top: 4560px;
     right: 40px;
