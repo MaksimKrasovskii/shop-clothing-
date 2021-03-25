@@ -70,6 +70,36 @@ body {
   margin: 0 34px 0 0;
 }
 
+Не получается кнопка с меню
+/*.header__navigation {    
+  display: none;
+  width: 20vw;
+  min-height: 764px;
+  background:#Fff;
+  position: absolute;
+  left: 65%;
+  right: -100vw;
+  z-index: 1;
+  right: 0;
+}
+.header__navigation-list {
+  padding: 37px 33px 0;
+  box-sizing: border-box;
+  min-height: 765px;
+  width: 232px;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: -232px;
+  box-shadow: 6px 4px 35px rgb(0 0 0 / 21%);
+}
+
+
+.header__menu:hover,
+.header__menu:focus, 
+.header__navigation {
+    display: block;
+  
+}*/
 
 .header__person-link {
   margin: 0 55px 0 30px;
@@ -117,6 +147,7 @@ opacity: 0.5;
 cursor: pointer;
 outline: none;
 }
+
 
 
 
@@ -183,17 +214,17 @@ text-transform: uppercase;
 }
 
 .offers__item--women {
-  background-image: url(../IMG/women.jpg);
+  background-image: url(../img/women.jpg);
 }
 
 .offers__item--formen {
-  background-image: url(../IMG/formen.jpg);
+  background-image: url(../img/formen.jpg);
 }
 .offers__item--kids {
-  background-image: url(../IMG/kids.jpg);
+  background-image: url(../img/kids.jpg);
 }
 .offers__item--accesories {
-  background-image: url(../IMG/accesories.jpg);
+  background-image: url(../img/accesories.jpg);
   width: 100%;
   margin: 0;
 }
@@ -607,7 +638,7 @@ margin: 100px 0 0 100px;
 
   }
 .footers__copy--social {
-  margin: -70px 1320px;
+  margin: -70px 1260px;
 
 }
 
